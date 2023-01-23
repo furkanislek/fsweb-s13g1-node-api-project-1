@@ -1,3 +1,7 @@
+const express = require("express");
+
 // SUNUCUYU BU DOSYAYA KURUN
 
-module.exports = {}; // SERVERINIZI EXPORT EDİN {}
+const server = express();
+
+module.exports = server; // SERVERINIZI EXPORT EDİN {}
